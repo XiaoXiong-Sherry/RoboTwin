@@ -26,3 +26,7 @@ envs/curobo/*
 
 /*.json*
 /*.txt
+
+processed_data/*
+
+lerobot_data/*
