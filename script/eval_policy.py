@@ -388,7 +388,7 @@ def parse_args_and_config():
 
 if __name__ == "__main__":
     from test_render import Sapien_TEST
-    Sapien_TEST()
+    Sapien_TEST()  # 仿真环境预检查机制
 
     usr_args = parse_args_and_config()
 
