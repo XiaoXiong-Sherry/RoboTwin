@@ -7,4 +7,9 @@ seed: null
 instruction_type: unseen
 policy_conda_env: null
 
+# PI0 Model Parameters
+model_path: "my_policies/pretrained_model-pi0_beat"  # Path to your pretrained model
+gpu_id: 0  # GPU ID to use (0-7)
+pi0_step: 1  # Number of action steps to predict per inference
+
 # Add Parameters You Need

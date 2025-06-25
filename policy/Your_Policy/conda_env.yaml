@@ -1,0 +1,26 @@
+name: pi0_policy
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - numpy
+  - pillow
+  - opencv
+  - transformers
+  - huggingface_hub
+  - safetensors
+  - accelerate
+  - datasets
+  - loguru
+  - pyyaml
+  - pip
+  - pip:
+    - vlaholo  # You may need to install this from source or specify the correct package name
+    - openpi   # If this is the correct package name for your model 

@@ -8,7 +8,7 @@ from huggingface_hub import login
 
 
 def main():
-    hf_token = "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"
+    hf_token = "存储"
     login(token=hf_token)
     
     # device = auto_select_torch_device()
